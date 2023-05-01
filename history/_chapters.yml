@@ -1,0 +1,6 @@
+book:
+  chapters:
+    - part: "History"
+      chapters:
+        - history.md
+        - history/01-pioneers.md

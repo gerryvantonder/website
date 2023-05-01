@@ -6,7 +6,7 @@ contributes:
     html:
       theme: [default, theme.scss]
       toc: true
-      number-sections: true
+      number-sections: false
       number-depth: 3
       code-link: true
       code-copy: true

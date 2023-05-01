@@ -8,12 +8,17 @@ project:
   output-dir: _site
   render:
     - index.md
-    - setup.md
-    - materials.md
-    - materials/*
-    - "!materials/*/no_render"
+    - about-me.md
+    - history.md
+    - history/*
+    - "!history/*/no_render"
+    - contact-me.md
 
-format: courseformat-html
+format:
+  html:
+    theme: "_extensions/rhodesiansoldier/courseformat/theme.scss"
+    css: styles.css
+    number-sections: false
 
 execute:
   freeze: auto
@@ -22,36 +27,42 @@ knitr:
   opts_knit:
     cache.path: .knitr_cache
 
-metadata-files:
-  - "materials/_chapters.yml"
-  # - "materials/_sidebar.yml"
-
 book:
-  search:
-    location: sidebar
-  favicon: "_extensions/cambiotraining/courseformat/img/university-of-cambridge-favicon.ico"
+  favicon: "_extensions/rhodesiansoldier/courseformat/img/favicon.ico"
   page-navigation: true
   page-footer: 
     center: |
       Licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
       ![](https://creativecommons.org/images/deed/cc_icon_black_x2.png){width=25px} 
-      Bioinformatics Training Facility
   navbar:
     pinned: true
-    logo: "_extensions/cambiotraining/courseformat/img/university_crest_reversed.png"
+    logo: "_extensions/rhodesiansoldier/courseformat/img/rhodesian_lion.png"
     right:
       - icon: github
-        href: https://github.com/cambiotraining/
-        aria-label: Bioinformatics Training Facility GitHub
-      - icon: twitter
-        href: https://twitter.com/bioinfocambs
-        aria-label: Bioinformatics Training Facility Twitter
-    title: "Course Development Guidelines"
+        href: https://github.com/avantonder/
+        aria-label: Andries van Tonder GitHub
+    left:
+      - text: "Home"
+        file: index.md
+      - text: "About me"
+        file: about-me.md
+      - text: "History"
+        file: history.md
+      - text: "Contact me"
+        file: contact-me.md
+    title: "The Rhodesian Soldier"
   chapters:
-    - part: "Welcome"
+    - part: "Contents"
+    - text: "Welcome"
+      href: index.md
+    - text: "About me"
+      href: about-me.md
+    - part: "History"
       chapters:
-        - text: "Introduction"
-          href: index.md
-        - text: "Data & Setup"
-          href: setup.md
+        - history.md
+        - history/01-pioneers.md 
+        - history/02-rebellions.md
+    - text: "Contact me"
+      href: contact-me.md
+    
     
