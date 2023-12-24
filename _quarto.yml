@@ -9,9 +9,11 @@ project:
   render:
     - index.md
     - about-me.md
-    - history.md
-    - history/*
-    - "!history/*/no_render"
+    - publications.md
+    - publications/*
+    - "!publications/*/no_render"
+    - personal_services.md
+    - book_reviews.md
     - contact-me.md
 
 format:
@@ -36,7 +38,7 @@ book:
       ![](https://creativecommons.org/images/deed/cc_icon_black_x2.png){width=25px} 
   navbar:
     pinned: true
-    logo: "_extensions/rhodesiansoldier/courseformat/img/rhodesian_lion.png"
+    logo: "_extensions/rhodesiansoldier/courseformat/img/gvt_logo.jpg"
     right:
       - icon: github
         href: https://github.com/avantonder/
@@ -46,22 +48,38 @@ book:
         file: index.md
       - text: "About me"
         file: about-me.md
-      - text: "History"
-        file: history.md
+      - text: "Publications"
+        file: publications.md
+      - text: "Services"
+        file: services.md
+      - text: "Reviews"
+        file: book_reviews.md
       - text: "Contact me"
         file: contact-me.md
-    title: "The Rhodesian Soldier"
+    title: "Gerry van Tonder"
   chapters:
     - part: "Contents"
     - text: "Welcome"
       href: index.md
     - text: "About me"
       href: about-me.md
-    - part: "History"
+    - part: "Publications"
+      href: publications.md
       chapters:
-        - history.md
-        - history/01-pioneers.md 
-        - history/02-rebellions.md
+        - publications/01-africa.md
+        - publications/02-britain.md
+        - publications/03-middle_east.md
+        - publications/04-cold_war.md
+        - publications/05-korean_war.md
+        - publications/06-world_wars.md
+        - publications/07-biographies.md
+    - part: "Professional Services"
+      href: services.md
+      chapters:
+        - services/01-military_research.md
+        - services/02-editing.md
+    - text: "Book Reviews"
+      href: book_reviews.md
     - text: "Contact me"
       href: contact-me.md
     

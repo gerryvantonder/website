@@ -9,7 +9,7 @@
 // #0c5963
 // #106470
 // #28828A
-$navbar-bg: #12702c;
+$navbar-bg: #1434A4;
 $navbar-fg: white;
 $body-color: black;
 $link-color: #003a41;
@@ -34,6 +34,10 @@ $callout-color-important: #28828A;
 // headings colour
 title, h1, h2, h3, h4, h5, h6 {
   color: #003a41;
+}
+
+.justify {
+  text-align: justify !important
 }
 
 // active section heading - affects content navigation bar on the left
