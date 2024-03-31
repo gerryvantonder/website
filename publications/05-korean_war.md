@@ -263,6 +263,45 @@ ISBN:  9781526778093
 
 :::
 
+### Imjin River: Fall of the Glosters to the Armistice April 1951 - July 1953
+
+::: columns
+::: {.column width="35%"}
+
+![](../images/imjin_river.jpg){width=200}
+:::
+
+::: {.column width="65%" .justify}
+From October 1950, hundreds of thousands of Communist Chinese troops crossed the Yalu River into North Korea, with the singular objective of forcing General Douglas MacArthur’s United Nations troops back across the 38th Parallel and into the Sea of Japan.
+
+In a series of major offensives by 27 Chinese divisions, MacArthur sustained successive defeats in his hitherto successful campaign on the Korean Peninsula. For the first time, communist fighter Mig jet aircraft challenged MacArthur’s air superiority.
+
+Shortly before midnight on 22 April 1951, to the west of the US Eighth Army’s defensive front, the Chinese Sixty-third Army fell on the British 29th Brigade.
+
+::: 
+
+
+::: {.justify}
+On the left flank, the Gloucester Regiment—the ‘Glosters’— held a tenuous position at a ford on the Imjin River. Despite a gallant and costly defence, the battalion was pushed back to make a desperate but futile stand on Hill 235. On what became known as ‘Glosters’ Hill’, the battalion ceased to exist. It was subsequently estimated that the attacking force of 27,000 Chinese troops suffered 10,000 casualties, forcing the army to be withdrawn from the front. The stand and fall of the Glosters continues to be commemorated annually at the regiment’s memorial in the South Korean capital, Seoul.
+
+From August 1951 to the summer of 1952, the USAF conducted Operation Strangle in a futile and costly attempt to disrupt Chinese supply routes.
+In the last two years of fighting, Communist Chinese and UN forces faced each other from well-entrenched positions in hilly terrain, where mapped hill numbers were contested. From June 1952 to March 1953, a series of five hard-fought engagements took place in central Korea as the antagonists sought ownership of Hill 266, commonly referred to as ‘Old Baldy’. This was followed during April to July 1953 by two tactically pointless battles over Pork Chop Hill, in which the UN forces won the first battle and the Chinese the second, with both sides sustaining major casualties.
+
+On 27 July 1953, the two belligerents signed an armistice agreement, implementing a ceasefire that stands to this day. De facto, the Korean War never ended.
+
+Publisher: ‎Pen & Sword Military (2020)
+
+Paperback: 128 pages
+
+ISBN:  9781526778130
+
+[Amazon](https://www.amazon.co.uk/Korean-War-Armistice-1951-July-1945-1991/dp/1526778130)
+[Pen & Sword](https://www.pen-and-sword.co.uk/Korean-War-Imjin-River-Paperback/p/17781)
+
+:::
+
+:::
+
 ## Magazine articles
 
 ### Against the Red Tide Part 1: 27th British Commonwealth Brigade’s Korean War
